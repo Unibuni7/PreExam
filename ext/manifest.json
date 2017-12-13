@@ -1,0 +1,16 @@
+{
+  "name": "Order table",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "This extension will show you an order table",
+  "icons": {
+    "16": "icon16.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "override.html"
+  },
+  "permissions": [
+    "http://localhost:8888/PreExam/json_api.php/orders"
+  ]
+
+}
